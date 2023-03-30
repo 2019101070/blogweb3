@@ -8,5 +8,5 @@
                 <div class="card-header"> <p> Customer Login </p>
                 <div> <button type="button"><a href="login">Login!</a></button>
                 <div class="card-body"> <p> Service Provider Login </p>
-                <div> <button type="button">Login!</button>
+                <div> <button type="button"><a href="login">Login!</a></button>
 @endsection
