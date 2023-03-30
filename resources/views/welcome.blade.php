@@ -45,8 +45,11 @@
    
             }
 
-            .title {
+            #title {
+                text-decoration: none;
+                text-transform: uppercase;
                 font-size: 84px;
+                color: darkblue;
             }
 
             .links > a {
@@ -67,11 +70,10 @@
     <body>
         <div class="flex-center position-ref full-height">
             <div class="content">
-                <div class="title m-b-md" style="color:darkblue;">
-                    <a href="cOs">FREELANCE SILINGAN</a>
+                <div class="title m-b-md">
+                    <a id="title" href="cOs">FREELANCE SILINGAN</a>
                     <div class="links">
                    <a href="aboutus">About US</a>
-
                 </div>
             </div>
         </div>

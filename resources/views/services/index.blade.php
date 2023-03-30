@@ -69,7 +69,7 @@ input[type="checkbox"]:checked:after {
 }
 @media screen and (min-width: 950px) {
   .wrapper {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 10px;
   }
   .container {
