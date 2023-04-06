@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layout.app')
 
 @section('content')
 <div class="container">
@@ -90,6 +90,7 @@
                                 <button type="submit" class="btn btn-primary">
                                     {{ __('Register') }}
                                 </button>
+                            <a href="login"><button type="button" class="btn btn-primary">{{ __('Back') }}</button></a>
                             </div>
                         </div>
                     </form>

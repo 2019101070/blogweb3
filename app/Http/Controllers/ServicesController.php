@@ -8,8 +8,13 @@ class ServicesController extends Controller
 {
     /**
      * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
+     * @return void
+     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
+     /** @return \Illuminate\Http\Response
      */
     public function index()
     {

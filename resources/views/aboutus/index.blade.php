@@ -23,7 +23,7 @@
         <h1>JRT TEAM 2023</h1>
         </div>
         <div>
-            <a href="http://localhost/blogweb3/public/">Back to Title Page</a>
+            <p>Copyright@</p>
         </div>
         </div>
         </div>
