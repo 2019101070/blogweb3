@@ -27,3 +27,5 @@ Route::resource('services', 'ServicesController');
 Route::resource('aboutus','AboutUSController');
 Route::resource('laundry','LaundryController');
 //Route::resource('cart','ServicesController');
+Route::resource('profiles','ProfileController');
+Route::resource('bookings','BookingController');
