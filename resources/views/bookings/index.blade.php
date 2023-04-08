@@ -17,26 +17,20 @@
         <th>Address</th>
         <th>Chat</th>
         <th>Cancel</th>
-    @if(isset($movies))
-    @foreach($movies as $movie)
         <tr>
-            <td>{{$movie->id}}</td>
-            <td>{{$movie->mov_title}}</td>
-            <td>{{$movie->mov_year}}</td>
-            <td>{{$movie->mov_time}}</td>
-            <td>{{$movie->mov_lang}}</td>
-            <td>{{$movie->mov_dt_rel}}</td>
-            <td>{{$movie->mov_rel_country}}</td>
-            <td><a href="{{route('movies.show', $movie->id)}}">Movie details</a></td>
+            <td>{{ Auth::user()->email}}</td>
+            <td>{{ Auth::user()->name}}</td>
+            <td>{{ Auth::user()->date}}</td>
+            <td>{{ Auth::user()->time}}</td>
+            <td>{{ Auth::user()->service}}</td>
+            <td></td>
+            <td></td>
             <tr>
             </tr>
         </tr>
-    @endforeach
     </div>
     </div>
     </table>
     <div>
-    {{$movies->render()}}
-    @endif
     </div>
 @endsection

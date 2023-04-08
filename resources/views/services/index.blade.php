@@ -80,19 +80,19 @@ body {font-family: Arial, Helvetica, sans-serif;}
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Date:') }}</label>
+                            <label for="date" class="col-md-4 col-form-label text-md-right">{{ __('Date:') }}</label>
                           <div class="col-md-6">
                             <input type="date" id="date" name="date" required>
                         </div>
                           </div>
                         <div class="form-group row">
-                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Time:') }}</label>
+                            <label for="time" class="col-md-4 col-form-label text-md-right">{{ __('Time:') }}</label>
                           <div class="col-md-6">
                             <input type="time" id="time" name="time" required>
                         </div>
                           </div>
                         <div class="form-group row">
-                            <label for="name" class="col-md-4 col-form-label text-md-right">{{ __('Service:') }}</label>
+                            <label for="service" class="col-md-4 col-form-label text-md-right">{{ __('Service:') }}</label>
                           <div class="col-md-6">
                             <select id="service" name="service" required>
                               <option value="">Select a service</option>
